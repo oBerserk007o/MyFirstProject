@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Sum {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter first value:");
@@ -13,7 +13,7 @@ public class Sum {
         System.out.println(sum(input1, input2));
     }
 
-    public float sum(float a, float b) {
+    public static float sum(float a, float b) {
         return a+b;
     }
 }

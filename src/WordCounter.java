@@ -7,7 +7,7 @@ public class WordCounter {
         int data = reader.read();
         int count = 1;
         while (data != -1) {
-            if (data == 32 || data == 10) {
+            if (data == ' ' || data == '\n') {
                 count++;
             }
             data = reader.read();
